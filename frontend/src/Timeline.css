@@ -1,0 +1,36 @@
+.bar-graph {
+   height: 270px;
+}
+
+
+.parent {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.child1 {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: center;
+}
+.child2 {
+  display: inline-block;
+  margin-left: 700px;
+  /* text-align: right; */
+  vertical-align: right;
+}
+
+.avg-button {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 60px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100px;
+}

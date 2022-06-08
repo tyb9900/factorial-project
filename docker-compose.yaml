@@ -32,5 +32,6 @@ services:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
     environment:
       - PORT=${FRONTEND_PORT}
+      - REACT_APP_BACKEND_URL=${BACKEND_SERVICE_URL}:${BACKEND_PORT}
 volumes:
   postgres:
