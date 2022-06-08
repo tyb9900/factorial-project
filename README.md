@@ -53,5 +53,6 @@ To run the test suite type in the command line ```docker-compose run backend bun
     It uses chart-js library to show the matrics timeline
 
 * Look of Frontend Application
-![look of app](https://i.ibb.co/vXTW7sY/image.png)
+![Imgur Image](https://i.imgur.com/TiDzlqg.png)
+
 
