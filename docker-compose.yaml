@@ -20,6 +20,8 @@ services:
       - db
     environment:
       - PORT=${BACKEND_PORT}
+      - POSTGRES_DATABASE_USERNAME=${POSTGRES_USER}
+      - POSTGRES_DATABASE_PASSWORD=${POSTGRES_PASSWORD}
   frontend:
     build:
       context: ./frontend
